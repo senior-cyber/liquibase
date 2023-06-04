@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/senior-cyber/utility-liquibase/xml"
+	"github.com/senior-cyber/utility-liquibase/liquibase"
 	"log"
 )
 
@@ -20,6 +20,6 @@ func main() {
 
 	flag.Parse()
 
-	_xml := xml.New(_input, _output)
+	_xml := liquibase.New(_input, _output)
 	_xml.ParseXml()
 }

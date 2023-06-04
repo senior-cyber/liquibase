@@ -1,4 +1,4 @@
-package xml
+package liquibase
 
 import (
 	_xml "encoding/xml"
