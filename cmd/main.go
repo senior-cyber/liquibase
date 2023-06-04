@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/senior-cyber/liquibase/xml"
+	"github.com/senior-cyber/utility-liquibase/xml"
 	"log"
 )
 
